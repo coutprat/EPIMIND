@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+backend/.venv/
+__pycache__/
+*.pyc
+.eggs/
+*.egg-info/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+frontend/dist/
+frontend/node_modules/
+backend/core_api/__pycache__/
+backend/inference_service/__pycache__/
+ml/export/checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML Data and Models (too large)
+ml/data/
+ml/export/models/*.pt
+ml/export/models/*.onnx
+ml/notebooks/
+
+# Temporary files
+*.tmp
+*.log
+.cache/
+
+# OS files
+Thumbs.db
+.DS_Store
